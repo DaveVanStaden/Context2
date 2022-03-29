@@ -4153,7 +4153,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304836253}
-  m_LocalRotation: {x: 0.2566679, y: -0.000000029001464, z: 0.000000007701757, w: 0.9664997}
+  m_LocalRotation: {x: 0.25666797, y: 0.000000016629963, z: -0.0000000044163264, w: 0.9664997}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5148,7 +5148,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380557162}
-  m_LocalRotation: {x: 0.22869559, y: 0.000000008379517, z: -0.0000000019665736, w: 0.973498}
+  m_LocalRotation: {x: 0.22869559, y: 0.000000008379453, z: -0.0000000019663047, w: 0.973498}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6739,6 +6739,103 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &465211677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 465211678}
+  - component: {fileID: 465211681}
+  - component: {fileID: 465211680}
+  - component: {fileID: 465211679}
+  m_Layer: 6
+  m_Name: Signpost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &465211678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465211677}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.2800026, y: 0.37999916, z: -0.010005951}
+  m_LocalScale: {x: 0.40213686, y: 2.5948398, z: 0.3499267}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 479321258}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &465211679
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465211677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &465211680
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465211677}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f0f921481e437444fb980948ccec3595, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &465211681
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465211677}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &471375043
 GameObject:
   m_ObjectHideFlags: 0
@@ -6933,21 +7030,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mom's Notes
       objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.name
+      value: Allai
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: _dialogueManager
+      value: 
+      objectReference: {fileID: 1416821193}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.playerName
+      value: Mom's Notes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Hm, a note left by mom for me..
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: '"Dear Allai, you are a worthless child"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: Motherly love...
+      objectReference: {fileID: 0}
     - target: {fileID: 7061902196990421772, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7061902196990421772, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 33
+      value: 47.42
       objectReference: {fileID: 0}
     - target: {fileID: 7061902196990421772, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.120228
+      value: 10.51
       objectReference: {fileID: 0}
     - target: {fileID: 7061902196990421772, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 40.4
+      value: 41.81
       objectReference: {fileID: 0}
     - target: {fileID: 7061902196990421772, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6975,6 +7096,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7061902196990421772, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484864032144273810, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -13503,7 +13628,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871429030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 90.8, y: 40.25, z: 182.3}
+  m_LocalPosition: {x: -71.2, y: 46.5, z: 97.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -23093,6 +23218,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1563388394}
   m_Mesh: {fileID: 4300000, guid: 75496dc6cf7114afcbf768908cdb359c, type: 3}
+--- !u!1 &1569182512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1569182513}
+  - component: {fileID: 1569182516}
+  - component: {fileID: 1569182515}
+  - component: {fileID: 1569182514}
+  m_Layer: 6
+  m_Name: Signpost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1569182513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569182512}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.2800026, y: 2.250002, z: -0.010005951}
+  m_LocalScale: {x: 1.3184383, y: 1.4750952, z: 1.3184383}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 479321258}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1569182514
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569182512}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1569182515
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569182512}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f0f921481e437444fb980948ccec3595, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1569182516
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569182512}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1570710323
 GameObject:
   m_ObjectHideFlags: 0
@@ -24816,6 +25038,70 @@ PrefabInstance:
     - target: {fileID: 6658816723450032197, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
       propertyPath: m_Name
       value: TreeMemory
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.name
+      value: Allai
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: _dialogueManager
+      value: 
+      objectReference: {fileID: 1416821193}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: So..this is it. The tree.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: such a weird sensation being here again
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: I remember that night
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: we drank beer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: got drunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: sat under the tree as the night became hazy with stars
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: Merin got closer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: we talked, i said i didnt want to miss her
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: Merin smiled. It was beautiful and painful
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[9]
+      value: My heart pounded in my chest, this was the moment
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[10]
+      value: And so we kissed.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[11]
+      value: Our first, and our last kiss, before merin moved away.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[12]
+      value: Ill miss this place.
       objectReference: {fileID: 0}
     - target: {fileID: 7061902196990421772, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
       propertyPath: m_RootOrder
@@ -29507,11 +29793,16 @@ MonoBehaviour:
   _dialogueManager: {fileID: 1416821193}
   dialogue:
     name: Farmer Joe
-    playerName: Alex
+    playerName: Player
     sentences:
     - Hey Alex!
     - Hey Joe! Ben send me over.
     - Yeah I asked him to. I dont really need you tho.
+    - '> continue'
+    - yeah so yeah fuckof
+    - '> continue'
+    - I dont like kids liek you
+    - bye
 --- !u!65 &1991125813
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31270,7 +31561,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072528189}
-  m_LocalRotation: {x: 0.20071977, y: 0.000000018845816, z: -0.0000000038613104, w: 0.9796487}
+  m_LocalRotation: {x: 0.20071977, y: -0.000000018845816, z: 0.0000000038613104, w: 0.9796487}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -56117,9 +56408,73 @@ PrefabInstance:
       value: Forester
       objectReference: {fileID: 0}
     - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.name
+      value: Forester Gumper
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
       propertyPath: _dialogueManager
       value: 
       objectReference: {fileID: 1416821193}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Hey kid
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Hey forester, mom sent me, said u were lookin for me?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: Yep, because i saw a tree with ur name carved in it's trunk.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: my name...?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: 'Yes, and Merin''s, with a heart drawn around it. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: I dont know what you are talking about..
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: It's okay. I figured, maybe you wanted to say goodbye to the tree. U
+        know, for closure's sake
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: I dont need..
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: Just follow the crooked trees in the forest, and it'll lead you there
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[9]
+      value: maybe i could check it out then.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[10]
+      value: 'Just go. And dont worry about the bark, it''ll heal within a year or
+        two..
+
+        just next time, dont carve in trees?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[11]
+      value: Sorry Forester...
+      objectReference: {fileID: 0}
+    - target: {fileID: 6810302446262314644, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
+      propertyPath: dialogue.sentences.Array.data[12]
+      value: Now off you go
+      objectReference: {fileID: 0}
     - target: {fileID: 7061902196990421772, guid: 07cb9c0ea2f351e40bdb6a495126515a, type: 3}
       propertyPath: m_RootOrder
       value: 1
