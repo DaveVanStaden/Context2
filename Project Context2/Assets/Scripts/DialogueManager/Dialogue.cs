@@ -8,6 +8,6 @@ using UnityEngine;
     public string name;
     public string playerName;
     
-    [TextArea(3,10)]
+    [TextArea(3,20)]
     public string[] sentences;
 }
