@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
 
     public Animator animator;
+    public bool IsTalking;
 
     private bool isPlayer = false;
     private Queue<string> sentences;
@@ -22,7 +23,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue dialogue)
     {
         animator.SetBool("isOpen", true);
-        
+        IsTalking = true;
         nameText.text = dialogue.name;
         
         sentences.Clear();
@@ -69,6 +70,7 @@ public class DialogueManager : MonoBehaviour
     }
     public void EndDialogue()
     {
+        IsTalking = false;
         isPlayer = false;
         nameText.text = "";
         dialogueText.text = "";

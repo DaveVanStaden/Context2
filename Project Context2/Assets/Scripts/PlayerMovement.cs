@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+    public Animator charAnimator;
     public CharacterController controller;
 
     public Transform camera;
@@ -45,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (direction.magnitude >= 0.1f)
         {
+            WalkAnimation();
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + camera.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
@@ -53,15 +54,28 @@ public class PlayerMovement : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
 
         }
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        else
+        {
+            IdleAnimation();
+        }
+        /*if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
             jump = true;
-        }
+        }*/
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
 
     }
 
+    public void IdleAnimation()
+    {
+        charAnimator.SetBool("IsWalking",false);
+    }
+
+    public void WalkAnimation()
+    {
+        charAnimator.SetBool("IsWalking",true);
+    }
 }

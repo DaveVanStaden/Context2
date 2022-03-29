@@ -7,21 +7,26 @@ public class DialogueTrigger : MonoBehaviour
 {
     public DialogueManager _dialogueManager;
     public Dialogue dialogue;
-
+    private bool hasInteracted;
     private bool colliderPlayer;
 
     private void Update()
     {
         if (colliderPlayer)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (!_dialogueManager.IsTalking && hasInteracted == false) 
             {
                 TriggerDialogue();
+                hasInteracted = true;
             }
-            if (Input.GetKeyDown(KeyCode.R))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 _dialogueManager.DisplayNextSentence(dialogue);
             } 
+        }
+        else
+        {
+            hasInteracted = false;
         }
     }
 

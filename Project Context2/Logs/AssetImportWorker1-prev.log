@@ -1,0 +1,528 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.11f1 (e50cafbb4399) revision 15010991'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16252 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/barba/Documents/GitHub/Context2/Project Context2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51975
+Successfully changed project path to: C:/Users/barba/Documents/GitHub/Context2/Project Context2
+C:/Users/barba/Documents/GitHub/Context2/Project Context2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 49.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.11f1 (e50cafbb4399)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/barba/Documents/GitHub/Context2/Project Context2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.6230
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007543 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.643 seconds
+Domain Reload Profiling:
+	ReloadAssembly (643ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (414ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1295ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1079ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (685ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3467 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.8 MB). Loaded Objects now: 3919.
+Memory consumption went from 159.6 MB to 158.8 MB.
+Total: 3.515100 ms (FindLiveObjects: 0.365000 ms CreateObjectMapping: 0.286800 ms MarkObjects: 2.585100 ms  DeleteObjects: 0.277400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 73989.348359 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8848a61edf86d1cf14996b0a91e1ee2d') in 0.040673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.820057 seconds.
+  path: Assets/Characters/Allai/Animations/Ally@Walking.fbx
+  artifactKey: Guid(4c2e9003014d8f849973158f96804511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Animations/Ally@Walking.fbx using Guid(4c2e9003014d8f849973158f96804511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19215d6205346104b69c8abe20b9998') in 0.055871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.448537 seconds.
+  path: Assets/KimStuff/MovingAwayBlockout.prefab
+  artifactKey: Guid(dc0b7e653eeac9f4088f0c1940bbe34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/MovingAwayBlockout.prefab using Guid(dc0b7e653eeac9f4088f0c1940bbe34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17f288e59750dc583cb6e05b1f84e02') in 0.239074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KimStuff/TerrainData_f080981e-8966-4cf1-a4a0-d038bb41f384.asset
+  artifactKey: Guid(9afa8dda35013214882585b1d23a59c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/TerrainData_f080981e-8966-4cf1-a4a0-d038bb41f384.asset using Guid(9afa8dda35013214882585b1d23a59c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ff227665325264f3b45d2e5cb507cb') in 0.033748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/KimStuff/TerrainData_fe637730-a3e1-4734-b6de-1986fe3582c4.asset
+  artifactKey: Guid(1d88067b3d9160d49bc4e3f5ea966641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/TerrainData_fe637730-a3e1-4734-b6de-1986fe3582c4.asset using Guid(1d88067b3d9160d49bc4e3f5ea966641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dc49907958889ad7d54cffb3b7511c') in 0.033073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/KimStuff/TerrainData_fb7f61fe-bcea-4763-ad4d-4022657b9cfb.asset
+  artifactKey: Guid(97d96122d90cfac4e8b7958b55bfad0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/TerrainData_fb7f61fe-bcea-4763-ad4d-4022657b9cfb.asset using Guid(97d96122d90cfac4e8b7958b55bfad0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb712719387cd7117aa5e8f81710a1a') in 0.029788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.185257 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_arms_MetallicSmoothness.png
+  artifactKey: Guid(0a599aea3f2e6944881acf782bb167cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_arms_MetallicSmoothness.png using Guid(0a599aea3f2e6944881acf782bb167cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6f3619aadeefc5803ea9075c0a7fa2') in 0.047970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088658 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_body_MetallicSmoothness.png
+  artifactKey: Guid(3c8a34ca4391988488be8c2d0d57330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_body_MetallicSmoothness.png using Guid(3c8a34ca4391988488be8c2d0d57330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b230a020d2c623b49111036fe2d976') in 0.040930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_hair_MetallicSmoothness.png
+  artifactKey: Guid(4767b864012d0fc40b52e9dad5398b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_hair_MetallicSmoothness.png using Guid(4767b864012d0fc40b52e9dad5398b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985f0533762b19b3b7cae265b6955152') in 0.036407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_head_AlbedoTransparency.png
+  artifactKey: Guid(d5985b3dc78a1dd44a119fc98d47dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_head_AlbedoTransparency.png using Guid(d5985b3dc78a1dd44a119fc98d47dd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3324a98c0971712c41f51a63fd1b7b90') in 0.036679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_pantlegs_MetallicSmoothness.png
+  artifactKey: Guid(41c403a952d0b6a46a000b5c2903ee60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_pantlegs_MetallicSmoothness.png using Guid(41c403a952d0b6a46a000b5c2903ee60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78b40081b3d58dff606f8ecc1743472') in 0.038017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_hair_AlbedoTransparency.png
+  artifactKey: Guid(c06dd31592d3c144f8c190fb7aaaa033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_hair_AlbedoTransparency.png using Guid(c06dd31592d3c144f8c190fb7aaaa033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4809569fcfc991a3a3fd369f2d5d90ae') in 0.042480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_head_Normal.png
+  artifactKey: Guid(d80d6f2132b66ad438ed9b2e7b1b92e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_head_Normal.png using Guid(d80d6f2132b66ad438ed9b2e7b1b92e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b215f3c88a1399557f2f09bda43b1840') in 0.038781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_pantlegs_AlbedoTransparency.png
+  artifactKey: Guid(3c74d5198662776409904ac0bcf478fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_pantlegs_AlbedoTransparency.png using Guid(3c74d5198662776409904ac0bcf478fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855e2e4c3e8999952b1bf6648a3c70ba') in 0.038461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_nose_Normal.png
+  artifactKey: Guid(0034f959fb39a254b9d9e1b606109e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_nose_Normal.png using Guid(0034f959fb39a254b9d9e1b606109e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201fe221a219a4c59066bbb21fad31e2') in 0.035551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_body_Normal.png
+  artifactKey: Guid(1a41a1e4dc751a443a85cadddef93f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_body_Normal.png using Guid(1a41a1e4dc751a443a85cadddef93f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6822c4a131ca2da7a25eb711883ac4a2') in 0.032856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_arms_Normal.png
+  artifactKey: Guid(83e63766251847d4c8c231df592d395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_arms_Normal.png using Guid(83e63766251847d4c8c231df592d395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c632dd7a2176ca63ba69a2bd30090751') in 0.035693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.968162 seconds.
+  path: Assets/KimStuff/Context II/Trees/Materials/BasicTree_Mat.mat
+  artifactKey: Guid(ababbe5ef3e2f1a45a291d7e3997c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/Context II/Trees/Materials/BasicTree_Mat.mat using Guid(ababbe5ef3e2f1a45a291d7e3997c4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf0e74ea71ad102637826273734a086') in 1.675501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KimStuff/Context II/Materials/Building_Mat.mat
+  artifactKey: Guid(fa1b7b53ce35e3f48b1f8a43a9e8adb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/Context II/Materials/Building_Mat.mat using Guid(fa1b7b53ce35e3f48b1f8a43a9e8adb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712712683a5137eefe87406d7ae10cae') in 1.477872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/KimStuff/Context II/Materials/BentTree2_Mat.mat
+  artifactKey: Guid(bff2e01ecaa0b454d8cd0fea72ac4ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/Context II/Materials/BentTree2_Mat.mat using Guid(bff2e01ecaa0b454d8cd0fea72ac4ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffce72b865f704bcb64e39406444408') in 0.036778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/KimStuff/Context II/Models/BentTree1.fbx
+  artifactKey: Guid(7ee4d5cc61a60404aa0226f3eb9a0e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/Context II/Models/BentTree1.fbx using Guid(7ee4d5cc61a60404aa0226f3eb9a0e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbde90e18a46a53377e8471e7fa2173') in 0.235492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KimStuff/Context II/Models/BentTree2.fbx
+  artifactKey: Guid(15e3403a15e5adc4fb5881715576e2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/Context II/Models/BentTree2.fbx using Guid(15e3403a15e5adc4fb5881715576e2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3188f80d46caf31c4e67ab9581bb199') in 0.045623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/KimStuff/Context II/Trees/Models/Leafy Tree.fbx
+  artifactKey: Guid(814aefd9002e6a248ab0f82e814d3898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/Context II/Trees/Models/Leafy Tree.fbx using Guid(814aefd9002e6a248ab0f82e814d3898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65152fbbd6b5b31b796f557edd9a48c6') in 0.043089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KimStuff/Context II/Trees/Materials/SmallTree_Mat.mat
+  artifactKey: Guid(59cfa6bcc3ef7194f94c237221243a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/Context II/Trees/Materials/SmallTree_Mat.mat using Guid(59cfa6bcc3ef7194f94c237221243a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee3cd8ca0a46b40bb9a23119b112b53') in 0.041549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KimStuff/Forest_Prefab/Birch_2.fbx
+  artifactKey: Guid(2b687a5a5e7b24e878e9c48b2adea929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/Forest_Prefab/Birch_2.fbx using Guid(2b687a5a5e7b24e878e9c48b2adea929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e779681954c0a0dbb4ba58b0636ebe') in 0.069188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KimStuff/Forest_Prefab/Bush_2.fbx
+  artifactKey: Guid(0d5efc5e7095c44e9bbd14e638743971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/Forest_Prefab/Bush_2.fbx using Guid(0d5efc5e7095c44e9bbd14e638743971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7779b17698043e4ec2b5e59531c0a6') in 0.049538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 251.062506 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_armRMat.mat
+  artifactKey: Guid(b8af2ea6013243346a0de1da2b9c4b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_armRMat.mat using Guid(b8af2ea6013243346a0de1da2b9c4b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa104f7ffa88965894a69048d7780d42') in 0.040689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089994 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_hairMat.mat
+  artifactKey: Guid(30e31c4bab2fe6041b646d77e1da5486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_hairMat.mat using Guid(30e31c4bab2fe6041b646d77e1da5486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfdc2da2ed6d94f3724a7d6bca298f6') in 0.047530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_pantlegsLMat.mat
+  artifactKey: Guid(9d7a564cd1935224c8f7be51322a802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_pantlegsLMat.mat using Guid(9d7a564cd1935224c8f7be51322a802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a6d25f095842da08b07c0417463ca8') in 0.041925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_noseMat.mat
+  artifactKey: Guid(8a90a86e127f42d4a8e72a1c4e6da1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_noseMat.mat using Guid(8a90a86e127f42d4a8e72a1c4e6da1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2022004be034f843f83690befb98718a') in 0.038001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_headMat.mat
+  artifactKey: Guid(0b39fc9abc91e994b9748cbc5517bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_headMat.mat using Guid(0b39fc9abc91e994b9748cbc5517bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed8734316e2ee62f96e53066342681f') in 0.041902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.734816 seconds.
+  path: Assets/KimStuff/Context II/Models/NormalTree2.fbx
+  artifactKey: Guid(dd643b80229aae6418cb5177bff0d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KimStuff/Context II/Models/NormalTree2.fbx using Guid(dd643b80229aae6418cb5177bff0d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0546f7e17f22e0b313854ce970f05ef7') in 0.050160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/Wood.mat
+  artifactKey: Guid(f0f921481e437444fb980948ccec3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wood.mat using Guid(f0f921481e437444fb980948ccec3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d4a6ca0757778822333da612a887da') in 0.037932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 308.851785 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_arms_Normal.png
+  artifactKey: Guid(83e63766251847d4c8c231df592d395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_arms_Normal.png using Guid(83e63766251847d4c8c231df592d395b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47eabcdcbbb7fefe9db2d0f80f833165') in 0.033556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.504519 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_body_Normal.png
+  artifactKey: Guid(1a41a1e4dc751a443a85cadddef93f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_body_Normal.png using Guid(1a41a1e4dc751a443a85cadddef93f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6720335eb9d74bce8fa58df8a01f3e12') in 0.029703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.416090 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_hair_Normal.png
+  artifactKey: Guid(ec66848d76d94f741832b166e0a25984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_hair_Normal.png using Guid(ec66848d76d94f741832b166e0a25984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8435b2faae10976f47e996fc3a90d3') in 0.034328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.714159 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_head_Normal.png
+  artifactKey: Guid(d80d6f2132b66ad438ed9b2e7b1b92e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_head_Normal.png using Guid(d80d6f2132b66ad438ed9b2e7b1b92e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f0124dea75394e403fb118bc24fecd') in 0.029204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.356986 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_legs_Normal.png
+  artifactKey: Guid(76362feb445ea874dab6bfee1a935004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_legs_Normal.png using Guid(76362feb445ea874dab6bfee1a935004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815316a887a5715f15240ec9c2dc3d76') in 0.027126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.086139 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_nose_Normal.png
+  artifactKey: Guid(0034f959fb39a254b9d9e1b606109e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_nose_Normal.png using Guid(0034f959fb39a254b9d9e1b606109e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1288059b62d7a297b1f9a63c1d1fcace') in 0.027746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.932171 seconds.
+  path: Assets/Characters/Allai/Textures/Ally_lowres_Ally_pantlegs_Normal.png
+  artifactKey: Guid(0963745f8e1a9674bb77974ed93d7485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Textures/Ally_lowres_Ally_pantlegs_Normal.png using Guid(0963745f8e1a9674bb77974ed93d7485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e67bc67fe6385c89d458142b3299e3') in 0.033595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.280343 seconds.
+  path: Assets/Characters/Allai/Ally.obj
+  artifactKey: Guid(ce468446dbb37764ab77b1849fe77f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Ally.obj using Guid(ce468446dbb37764ab77b1849fe77f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc23315066900b190ffacb0dd9ec216') in 1.140245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.285012 seconds.
+  path: Assets/Characters/Allai/Ally.obj
+  artifactKey: Guid(ce468446dbb37764ab77b1849fe77f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Ally.obj using Guid(ce468446dbb37764ab77b1849fe77f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39960e89497d39e00cc9ef7c2592013') in 0.179896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.906013 seconds.
+  path: Assets/Characters/Allai/Ally.obj
+  artifactKey: Guid(ce468446dbb37764ab77b1849fe77f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Ally.obj using Guid(ce468446dbb37764ab77b1849fe77f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d43f33e3c75bc200648a411b053c58') in 0.159485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.986953 seconds.
+  path: Assets/Characters/Allai/Animations/Ally@Idle.fbx
+  artifactKey: Guid(456aa159c89d27144a48513c5d4a308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Animations/Ally@Idle.fbx using Guid(456aa159c89d27144a48513c5d4a308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f58c1c526d75545edd34cf87f09381') in 0.027355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.405651 seconds.
+  path: Assets/Characters/Allai/Ally.obj
+  artifactKey: Guid(ce468446dbb37764ab77b1849fe77f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Ally.obj using Guid(ce468446dbb37764ab77b1849fe77f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daaf03b448cca1d03557b43611933371') in 0.126952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.517350 seconds.
+  path: Assets/Characters/Allai/Animations/Ally@Idle.fbx
+  artifactKey: Guid(456aa159c89d27144a48513c5d4a308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Animations/Ally@Idle.fbx using Guid(456aa159c89d27144a48513c5d4a308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3001c4cdacf39da84ed104723814b784') in 0.026374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.806923 seconds.
+  path: Assets/Characters/Allai/Ally.obj
+  artifactKey: Guid(ce468446dbb37764ab77b1849fe77f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Ally.obj using Guid(ce468446dbb37764ab77b1849fe77f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf6a65fd93cac2c90f2a451eeea779d') in 0.135440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.840926 seconds.
+  path: Assets/Characters/Allai/Ally.fbx
+  artifactKey: Guid(19f2c40ff3e889844a4c6c6b5f9fd715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Ally.fbx using Guid(19f2c40ff3e889844a4c6c6b5f9fd715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e7f7f032dd684c0cf43eb695ce0e42') in 0.130947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.227361 seconds.
+  path: Assets/Characters/Allai/Ally.fbx
+  artifactKey: Guid(19f2c40ff3e889844a4c6c6b5f9fd715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Ally.fbx using Guid(19f2c40ff3e889844a4c6c6b5f9fd715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd9acb912fafa4ea54322d0870869bf') in 0.124209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.239131 seconds.
+  path: Assets/Characters/Allai/Ally.fbx
+  artifactKey: Guid(19f2c40ff3e889844a4c6c6b5f9fd715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Ally.fbx using Guid(19f2c40ff3e889844a4c6c6b5f9fd715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84500080f3dbc66680810fc9bddd000') in 0.233484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.868554 seconds.
+  path: Assets/Characters/Allai/Animations/Ally@Idle.fbx
+  artifactKey: Guid(456aa159c89d27144a48513c5d4a308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Animations/Ally@Idle.fbx using Guid(456aa159c89d27144a48513c5d4a308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a842e1f697861250dca88f160f4c9f0') in 0.025109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.391257 seconds.
+  path: Assets/Characters/Allai/Animations/Ally@Walking.fbx
+  artifactKey: Guid(4c2e9003014d8f849973158f96804511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Animations/Ally@Walking.fbx using Guid(4c2e9003014d8f849973158f96804511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3483162151ba797cb050c23846f29434') in 0.025087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.787585 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_armLMat.mat
+  artifactKey: Guid(32f5ce040029f1a4db387070ef501ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_armLMat.mat using Guid(32f5ce040029f1a4db387070ef501ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6ccca4d19d1e9db8578dc8bc43954a') in 0.033664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115407 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_bodyMat.mat
+  artifactKey: Guid(1c70583e350d78e44867a6fdefd68f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_bodyMat.mat using Guid(1c70583e350d78e44867a6fdefd68f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60608134aa87c8cbade931a235f3c620') in 0.033496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_lowres_Ally_legs_AlbedoTransparency.mat
+  artifactKey: Guid(7cc20aeca28ce5447988c95420824599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_lowres_Ally_legs_AlbedoTransparency.mat using Guid(7cc20aeca28ce5447988c95420824599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb47e19b7d000577e5a4033dfe6a204') in 0.036592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_pantlegsLMat.mat
+  artifactKey: Guid(9d7a564cd1935224c8f7be51322a802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_pantlegsLMat.mat using Guid(9d7a564cd1935224c8f7be51322a802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931358d4a37d47ac133da50fae6ce6d7') in 0.031503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_legLMat.mat
+  artifactKey: Guid(8600039f174dc69428e7a5fd5f255010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_legLMat.mat using Guid(8600039f174dc69428e7a5fd5f255010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ddab9150081c1288c2c7d94b3f8b07') in 0.032667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_noseMat.mat
+  artifactKey: Guid(8a90a86e127f42d4a8e72a1c4e6da1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_noseMat.mat using Guid(8a90a86e127f42d4a8e72a1c4e6da1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9689fb985ade0e248a490b3995eba05') in 0.034521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_hairMat.mat
+  artifactKey: Guid(30e31c4bab2fe6041b646d77e1da5486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_hairMat.mat using Guid(30e31c4bab2fe6041b646d77e1da5486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02835469db3923a2d9d32df5a1f14474') in 0.031371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_pantlegRMat.mat
+  artifactKey: Guid(e53511b2b3451c14884eb6e6705a6b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_pantlegRMat.mat using Guid(e53511b2b3451c14884eb6e6705a6b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b438abb18a19586d9602f9fff2d1f4d') in 0.032171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Characters/Allai/Materials/Ally_headMat.mat
+  artifactKey: Guid(0b39fc9abc91e994b9748cbc5517bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Allai/Materials/Ally_headMat.mat using Guid(0b39fc9abc91e994b9748cbc5517bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cf1758b893c0c715f5902d9274dc19') in 0.033381 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
