@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -263,6 +263,7 @@ MonoBehaviour:
   dialogue:
     name: Forrest Watch Ben
     playerName: Alex
+    IsForester: 0
     sentences:
     - Hey Alex! You should talk to farmer Joe, he has some stuff for you!
     - Really? I will head over right away!
@@ -599,7 +600,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1572154242}
   nameText: {fileID: 1763071008}
+  hintText: {fileID: 0}
   animator: {fileID: 1954018021}
+  IsTalking: 0
+  forester: {fileID: 0}
 --- !u!4 &1416821194
 Transform:
   m_ObjectHideFlags: 0
@@ -1021,6 +1025,7 @@ MonoBehaviour:
   dialogue:
     name: Farmer Joe
     playerName: Alex
+    IsForester: 0
     sentences:
     - Hey Alex!
     - Hey Joe! Ben send me over.

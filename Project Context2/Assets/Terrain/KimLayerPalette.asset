@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c509dbaa7b6f416409e3195321a2187e, type: 3}
+  m_Name: KimLayerPalette
+  m_EditorClassIdentifier: 
+  PaletteLayers:
+  - {fileID: 8574412962073106934, guid: 5a5a602156d6b8141b34aae19c791c1c, type: 2}
+  - {fileID: 8574412962073106934, guid: bf9ca66157f24e640b25b09d5e45cddd, type: 2}
+  - {fileID: 8574412962073106934, guid: 2bbd4bd2ac4fdd2429e20d8ef654ddcf, type: 2}
+  - {fileID: 8574412962073106934, guid: b63658b6d67fd41479cc22959e11be4c, type: 2}
+  - {fileID: 8574412962073106934, guid: 11fa8073893c5c448a4498ef5e772d2f, type: 2}
