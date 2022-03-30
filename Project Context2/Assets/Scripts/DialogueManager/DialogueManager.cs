@@ -9,9 +9,11 @@ public class DialogueManager : MonoBehaviour
 {
     public Text dialogueText;
     public Text nameText;
+    public GameObject hintText;
 
     public Animator animator;
     public bool IsTalking;
+    public AnimationForester forester;
 
     private bool isPlayer = false;
     private Queue<string> sentences;
@@ -22,6 +24,11 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        hintText.gameObject.SetActive(true);
+        if (dialogue.IsForester)
+        {
+            forester.TalkingAnimation();
+        }
         animator.SetBool("isOpen", true);
         IsTalking = true;
         nameText.text = dialogue.name;
@@ -40,6 +47,10 @@ public class DialogueManager : MonoBehaviour
         if (sentences.Count == 0)
         {
             EndDialogue();
+            if (dialogue.IsForester)
+            {
+                forester.IdleAnimation();
+            }
             return;
         }
         
@@ -69,6 +80,7 @@ public class DialogueManager : MonoBehaviour
     }
     public void EndDialogue()
     {
+        hintText.gameObject.SetActive(false);
         IsTalking = false;
         isPlayer = false;
         nameText.text = "";

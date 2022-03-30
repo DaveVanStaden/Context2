@@ -10,6 +10,7 @@ public class DialogueTrigger : MonoBehaviour
     private bool hasInteracted;
     private bool colliderPlayer;
 
+
     private void Update()
     {
         if (colliderPlayer)
