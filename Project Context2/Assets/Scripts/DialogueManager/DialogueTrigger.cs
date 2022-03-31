@@ -6,17 +6,20 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public DialogueManager _dialogueManager;
+    public AnimationForester _animationForester;
     public Dialogue dialogue;
     private bool hasInteracted;
     private bool colliderPlayer;
+    
 
 
     private void Update()
     {
         if (colliderPlayer)
         {
-            if (!_dialogueManager.IsTalking && hasInteracted == false) 
+            if (!_dialogueManager.IsTalking && hasInteracted == false)
             {
+                _dialogueManager.forester = _animationForester;
                 TriggerDialogue();
                 hasInteracted = true;
             }

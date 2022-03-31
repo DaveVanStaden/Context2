@@ -75,7 +75,7 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return 1f;
+            yield return new WaitForSeconds(0.04f);
         }
     }
     public void EndDialogue()
