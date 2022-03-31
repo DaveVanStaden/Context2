@@ -15,7 +15,7 @@ C:/Users/barba/Documents/GitHub/Context2/Project Context2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55852
+63482
 Successfully changed project path to: C:/Users/barba/Documents/GitHub/Context2/Project Context2
 C:/Users/barba/Documents/GitHub/Context2/Project Context2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/barba/Documents/GitHub/Context2/Project Context2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 61.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 73.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.11f1 (e50cafbb4399)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/Resources/UnitySubsystems
@@ -63,74 +63,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007613 seconds.
+Registered in 0.007377 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.598 seconds
+- Completed reload, in  0.590 seconds
 Domain Reload Profiling:
-	ReloadAssembly (599ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (590ms)
+		BeginReloadAssembly (78ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (440ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (113ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (248ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (258ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (53ms)
+				RefreshPlugins (59ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007548 seconds.
+Registered in 0.006985 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.546 seconds
+- Completed reload, in  1.665 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1547ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1666ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1327ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1464ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (224ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (949ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1064ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (727ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (832ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
@@ -138,12 +138,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3468 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (415.9 KB). Loaded Objects now: 3924.
-Memory consumption went from 159.8 MB to 159.4 MB.
-Total: 3.587300 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.214400 ms MarkObjects: 2.878300 ms  DeleteObjects: 0.161200 ms)
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.9 MB). Loaded Objects now: 4126.
+Memory consumption went from 175.9 MB to 174.1 MB.
+Total: 3.899300 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.236000 ms MarkObjects: 2.985400 ms  DeleteObjects: 0.390300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -158,173 +158,178 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 149158.682351 seconds.
-  path: Assets/LowPoly Nature Pack/Meshes
-  artifactKey: Guid(6cb5b18f14e808f4c8629951340e385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Nature Pack/Meshes using Guid(6cb5b18f14e808f4c8629951340e385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499f72e041ff6bed985ba6dd0ae25544') in 0.033618 seconds 
+  Time since last request: 227092.323282 seconds.
+  path: Assets/Characters/Forester/Materials 1/Forester_armL_mat.mat
+  artifactKey: Guid(cef17e76393fc694da20a598bd2b2ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Forester_armL_mat.mat using Guid(cef17e76393fc694da20a598bd2b2ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df9b9d11be0d0ff817ae983f62233ec') in 0.292773 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.588472 seconds.
-  path: Assets/LowPoly Nature Pack/Meshes/Plants
-  artifactKey: Guid(916678e228deb0d45a3066aee7394118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Nature Pack/Meshes/Plants using Guid(916678e228deb0d45a3066aee7394118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6725db800053b4e7f2a9d9eccb6eca66') in 0.025036 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009693 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.307 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1307ms)
-		BeginReloadAssembly (146ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1061ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (639ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (429ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3519 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (4.1 MB). Loaded Objects now: 4090.
-Memory consumption went from 163.2 MB to 159.1 MB.
-Total: 3.909700 ms (FindLiveObjects: 0.282000 ms CreateObjectMapping: 0.237000 ms MarkObjects: 2.339800 ms  DeleteObjects: 1.050300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 57.201057 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin_armL_mat.mat
+  artifactKey: Guid(cef17e76393fc694da20a598bd2b2ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin_armL_mat.mat using Guid(cef17e76393fc694da20a598bd2b2ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca570bccb8724d4c3bbeb8cd199bf6ca') in 0.037217 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 288.626014 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.029681 seconds 
+  Time since last request: 11.074204 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin1_armL_mat.mat
+  artifactKey: Guid(cef17e76393fc694da20a598bd2b2ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin1_armL_mat.mat using Guid(cef17e76393fc694da20a598bd2b2ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a192bf456699405c43d65215780fb54e') in 0.034965 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.013275 seconds.
-  path: Assets/Asset Packs
-  artifactKey: Guid(931bebd5ed8a1c24b96933f426cb7303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs using Guid(931bebd5ed8a1c24b96933f426cb7303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcf8a169966e7b0510dea801965d892') in 0.026532 seconds 
+  Time since last request: 11.748602 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin1_armR_mat.mat
+  artifactKey: Guid(1d5a1bce70555e848a93ef8b34cb24b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin1_armR_mat.mat using Guid(1d5a1bce70555e848a93ef8b34cb24b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54a65b94095095817401f0d99504300') in 0.035027 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.892201 seconds.
-  path: Assets/Free Stylized Skybox
-  artifactKey: Guid(a4767f7dcf7427342b7192489af0e52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox using Guid(a4767f7dcf7427342b7192489af0e52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b26bf2be5e82f446261403ff128186') in 0.023944 seconds 
+  Time since last request: 3.948413 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin1_body_mat.mat
+  artifactKey: Guid(4818d93947fa38c4080667198430d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin1_body_mat.mat using Guid(4818d93947fa38c4080667198430d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8da6b25cba8c896d0432faa2acf66c5') in 0.043147 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.905769 seconds.
-  path: Assets/LowPoly Nature Pack
-  artifactKey: Guid(49184052ac21fe046915ed3a1e2c35c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly Nature Pack using Guid(49184052ac21fe046915ed3a1e2c35c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d06b21af2a81cbccb29eac7be7ff5f') in 0.024309 seconds 
+  Time since last request: 3.075862 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin1_Backpack_mat.mat
+  artifactKey: Guid(8e04fb529fc96b94b8549280f43b2e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin1_Backpack_mat.mat using Guid(8e04fb529fc96b94b8549280f43b2e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ea9654604114535b8f5b5a9734ecac') in 0.051653 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 379.836214 seconds.
-  path: Assets/Supercyan Free Forest Sample
-  artifactKey: Guid(799faa60b1b24e4479f69dade4bf5520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Free Forest Sample using Guid(799faa60b1b24e4479f69dade4bf5520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd5aafd9544bdcbc5b196ceebcbcb63') in 0.024162 seconds 
+  Time since last request: 2.847249 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin1_glassesL_mat.mat
+  artifactKey: Guid(e6d7f095d37bf64469c596643bc90d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin1_glassesL_mat.mat using Guid(e6d7f095d37bf64469c596643bc90d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4844dd646132bb8d55be6a190d0d426') in 0.044443 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.104580 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d457b26d2bc8024e58729449d46e968') in 0.028987 seconds 
+  Time since last request: 14.616976 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin1_glassesR_mat.mat
+  artifactKey: Guid(b29d272d9649573429ebb919b669061d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin1_glassesR_mat.mat using Guid(b29d272d9649573429ebb919b669061d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356f340eb396a05107a1a7a431d4cf85') in 0.042966 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.421295 seconds.
-  path: Assets/TutorialInfo
-  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ab418355ea0820c1e1864c67d34dd2') in 0.023839 seconds 
+  Time since last request: 2.820395 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin1_hair_mat.mat
+  artifactKey: Guid(873e96695e568d3488d91e27316bddfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin1_hair_mat.mat using Guid(873e96695e568d3488d91e27316bddfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2954869074295664e971689cd1c8087') in 0.042774 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 341.829751 seconds.
-  path: Assets/Materials/Placeholder.mat
-  artifactKey: Guid(14766838c1ada3c42bf67a39567e30f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Placeholder.mat using Guid(14766838c1ada3c42bf67a39567e30f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5587d802c4fa1dcb971ec24132dd6ae9') in 0.312803 seconds 
+  Time since last request: 2.877364 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin1_head_mat.mat
+  artifactKey: Guid(87841d6fd8751254f9aa5280a5ca3936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin1_head_mat.mat using Guid(87841d6fd8751254f9aa5280a5ca3936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e59e4acf274cef416abffdbe1699490') in 0.044716 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Packs/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_03_Day_a.mat
-  artifactKey: Guid(6bfab16f387f95e4bb60f866299be241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_03_Day_a.mat using Guid(6bfab16f387f95e4bb60f866299be241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6844cb8d301f69340317aad09df950') in 0.172303 seconds 
+  Time since last request: 2.782445 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin1_legL_mat.mat
+  artifactKey: Guid(12d15e6c3812c99468343282ed6b1acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin1_legL_mat.mat using Guid(12d15e6c3812c99468343282ed6b1acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa24a06d63ab847b1f09acbc1acf480b') in 0.042555 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_03_Day_a.mat
-  artifactKey: Guid(55e64e617a8bfff4ba846574e2651eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_03_Day_a.mat using Guid(55e64e617a8bfff4ba846574e2651eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565e690c69564c07b70f250c6ed172e7') in 0.254797 seconds 
+  Time since last request: 2.495465 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin1_legR_mat.mat
+  artifactKey: Guid(bea8f95e41f081e4cb38e42b96c03dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin1_legR_mat.mat using Guid(bea8f95e41f081e4cb38e42b96c03dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda938ccd69f426025365d8053b777bc') in 0.040156 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Asset Packs/Hand Painted Stone Texture/Material/Stone_mobile.mat
-  artifactKey: Guid(094c835627124fe4bbbaa762d2240cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Hand Painted Stone Texture/Material/Stone_mobile.mat using Guid(094c835627124fe4bbbaa762d2240cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c710608fd1edf7ae8e0442f428d7a698') in 0.093523 seconds 
+  Time since last request: 2.911838 seconds.
+  path: Assets/Characters/Forester/Materials 1/Reskin1_nose_mat.mat
+  artifactKey: Guid(36dd96dc358a9c041a877ef036bf79c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Materials 1/Reskin1_nose_mat.mat using Guid(36dd96dc358a9c041a877ef036bf79c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7148cdd9c9b0a72537e88073decdaf') in 0.044598 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat
-  artifactKey: Guid(b2f1a98efccfb644f8e084200a249527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat using Guid(b2f1a98efccfb644f8e084200a249527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88af6762918f81870db6b59b084c7edd') in 0.127649 seconds 
+  Time since last request: 28.903419 seconds.
+  path: Assets/Characters/Forester/Reskin1
+  artifactKey: Guid(61590aa6dc7570f4081ba403dfd6b618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1 using Guid(61590aa6dc7570f4081ba403dfd6b618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7cdf39a8c4b1bef7ff091930243b2a') in 0.025375 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat
-  artifactKey: Guid(8162517b6ec2309499f99e303b29f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat using Guid(8162517b6ec2309499f99e303b29f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807624f7cee1e94300159004e2b0bffd') in 0.111785 seconds 
+  Time since last request: 2.861725 seconds.
+  path: Assets/Characters/Forester/Reskin1/Reskin1
+  artifactKey: Guid(a4f2855c2640dfb4e83616ba29167c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Reskin1 using Guid(a4f2855c2640dfb4e83616ba29167c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5abf913bf36c156c01142c6c97fae49') in 0.019741 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat
-  artifactKey: Guid(133347283e115d147a5fcce7f47a538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat using Guid(133347283e115d147a5fcce7f47a538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7104e2164c458516f1d7eed5a3e624ca') in 0.146882 seconds 
+  Time since last request: 4.237666 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures
+  artifactKey: Guid(a4f2855c2640dfb4e83616ba29167c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures using Guid(a4f2855c2640dfb4e83616ba29167c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb9d4258d5d1e6b108bb39266e9ac25') in 0.024540 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Asset Packs/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_18_day_a.mat
-  artifactKey: Guid(f9ec1c0318dcc3149b0e9ae62a6d8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_18_day_a.mat using Guid(f9ec1c0318dcc3149b0e9ae62a6d8cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35d34b511fcd7e1ba264537b9873d56') in 0.207732 seconds 
+  Time since last request: 57.416207 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_backpack_AlbedoTransparency.png
+  artifactKey: Guid(d3438b10c6035074ea370e5bb759cbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_backpack_AlbedoTransparency.png using Guid(d3438b10c6035074ea370e5bb759cbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b283c288c33fe97095381603498ca1') in 0.081319 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Asset Packs/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat
-  artifactKey: Guid(6abe918ee1229b34f8557fc2a5a39825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat using Guid(6abe918ee1229b34f8557fc2a5a39825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b06e50206954f3df65ab28913bda7b') in 0.156193 seconds 
+  Time since last request: 0.063251 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_arms1_MetallicSmoothness.png
+  artifactKey: Guid(bcd82f69325610947a5b614c2dc3644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_arms1_MetallicSmoothness.png using Guid(bcd82f69325610947a5b614c2dc3644a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f62da0200cd99c513ea91d45d897a03') in 0.044775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_body_Normal.png
+  artifactKey: Guid(bd69702d78eaced40bcbb00290223f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_body_Normal.png using Guid(bd69702d78eaced40bcbb00290223f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9039d6f396bc95b78e9026af0f6d5d18') in 0.042148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_legs_MetallicSmoothness.png
+  artifactKey: Guid(1de73d082925b4740b85db71fb1c765c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_legs_MetallicSmoothness.png using Guid(1de73d082925b4740b85db71fb1c765c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4856f8765cf2a3c4817abe633b05fe31') in 0.069186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_glasses_MetallicSmoothness.png
+  artifactKey: Guid(dd514863b17e7d9479411689d999ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_glasses_MetallicSmoothness.png using Guid(dd514863b17e7d9479411689d999ae51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408c203319366a3eb8b533fa0bbe8877') in 0.037657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_body_MetallicSmoothness.png
+  artifactKey: Guid(9ecfbeb4fad64fa499c9b9e1df09bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_body_MetallicSmoothness.png using Guid(9ecfbeb4fad64fa499c9b9e1df09bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6062987af9ff26ed344036984ffd99c') in 0.032069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_arms_Normal.png
+  artifactKey: Guid(e4d592e34258cf4448e6b74338e686c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_arms_Normal.png using Guid(e4d592e34258cf4448e6b74338e686c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601c1c4b7766f6ed777c7f95f4a69b5b') in 0.037882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_glasses_AlbedoTransparency.png
+  artifactKey: Guid(ccbeefb0d78d5f94b8e714172a78fcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_glasses_AlbedoTransparency.png using Guid(ccbeefb0d78d5f94b8e714172a78fcd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a962a13b3516c6cbc242a6ee330a547') in 0.069570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_nose_Normal.png
+  artifactKey: Guid(e9145207ff600ba489f223cdefd791d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_nose_Normal.png using Guid(e9145207ff600ba489f223cdefd791d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ecef753f32d73fbf8dbc93fd0337ac') in 0.045296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_legs_Normal.png
+  artifactKey: Guid(09381fe5170c5c9409f4ed82566f5c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_legs_Normal.png using Guid(09381fe5170c5c9409f4ed82566f5c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b51ae4767479f13e7d5e594d501111') in 0.034748 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Asset Packs/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat
-  artifactKey: Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat using Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42640e1028ce901ad6ae0d50968a590e') in 0.067283 seconds 
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_arms_AlbedoTransparency.png
+  artifactKey: Guid(aee0a588b738257428c14b0ab9df02de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_arms_AlbedoTransparency.png using Guid(aee0a588b738257428c14b0ab9df02de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf261e4a01915348b4311c3407db1beb') in 0.035313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_nose_AlbedoTransparency.png
+  artifactKey: Guid(b73603356e0f9ba4e81afda1212a5aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_nose_AlbedoTransparency.png using Guid(b73603356e0f9ba4e81afda1212a5aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9931a13da798b0f6c2fd3c9c6751a310') in 0.035976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_head_Normal.png
+  artifactKey: Guid(7cd708b7765baa140adc19b77389817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Forester/Reskin1/Textures/Forester_lowres_Forester_head_Normal.png using Guid(7cd708b7765baa140adc19b77389817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2672a2b84579507689c21fe0baf6006') in 0.034105 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
