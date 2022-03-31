@@ -14,7 +14,7 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
     public bool IsTalking;
     public AnimationForester forester;
-
+    public EndingGame gameEnd;
     private bool isPlayer = false;
     private Queue<string> sentences;
     void Start()
@@ -51,6 +51,11 @@ public class DialogueManager : MonoBehaviour
             {
                 forester.IdleAnimation();
             }
+
+            if (dialogue.isEnding)
+            {
+                gameEnd.endGame();
+            }
             return;
         }
         
@@ -75,7 +80,7 @@ public class DialogueManager : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(0.04f);
+            yield return new WaitForSeconds(0.01f);
         }
     }
     public void EndDialogue()

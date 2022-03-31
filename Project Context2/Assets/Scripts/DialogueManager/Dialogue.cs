@@ -8,6 +8,7 @@ using UnityEngine;
     public string name;
     public string playerName;
     public bool IsForester;
+    public bool isEnding;
     
     [TextArea(3,20)]
     public string[] sentences;
