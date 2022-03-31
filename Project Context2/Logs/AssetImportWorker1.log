@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.2/staging' branch; Version is '2021.2.11f1 (e50cafbb4399) revision 15010991'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16303 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16252 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.2.11f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-D:/School/GitProjecten/Context2/Project Context2
+C:/Users/barba/Documents/GitHub/Context2/Project Context2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65053
-Successfully changed project path to: D:/School/GitProjecten/Context2/Project Context2
-D:/School/GitProjecten/Context2/Project Context2
+63625
+Successfully changed project path to: C:/Users/barba/Documents/GitHub/Context2/Project Context2
+C:/Users/barba/Documents/GitHub/Context2/Project Context2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,103 +47,103 @@ D:/School/GitProjecten/Context2/Project Context2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 76.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.11f1 (e50cafbb4399)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/School/GitProjecten/Context2/Project Context2/Assets
+[Subsystems] Discovering subsystems at path C:/Users/barba/Documents/GitHub/Context2/Project Context2/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
     Vendor:   NVIDIA
-    VRAM:     5991 MB
-    Driver:   30.0.14.9649
+    VRAM:     3962 MB
+    Driver:   27.21.14.6230
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004245 seconds.
+Registered in 0.006865 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.00 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.649 seconds
+- Completed reload, in  0.577 seconds
 Domain Reload Profiling:
-	ReloadAssembly (649ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (578ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (504ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (420ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (111ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (305ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (250ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
+				RefreshPlugins (54ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004113 seconds.
+Registered in 0.006430 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 56.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.914 seconds
+- Completed reload, in  1.602 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1915ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1603ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1709ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1405ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
+			SetupTypeCache (206ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (1225ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1019ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (961ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (800ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (1.9 MB). Loaded Objects now: 4134.
-Memory consumption went from 187.1 MB to 185.2 MB.
-Total: 5.284000 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.269000 ms MarkObjects: 4.141600 ms  DeleteObjects: 0.534400 ms)
+Unloading 3663 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.9 MB). Loaded Objects now: 4127.
+Memory consumption went from 175.9 MB to 174.1 MB.
+Total: 3.668700 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.245600 ms MarkObjects: 2.475700 ms  DeleteObjects: 0.640100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -158,96 +158,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 109941.874964 seconds.
-  path: Assets/Asset Packs/Supercyan Free Forest Sample/Textures/Ground/forestpack_road_tile_diffuse.png
-  artifactKey: Guid(c3c4673abc7f1ac4e981951aabacc969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Supercyan Free Forest Sample/Textures/Ground/forestpack_road_tile_diffuse.png using Guid(c3c4673abc7f1ac4e981951aabacc969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3cd25c0a078ff397cbbc4a421127ef') in 0.113370 seconds 
+  Time since last request: 252452.459239 seconds.
+  path: Assets/TerrainSampleAssets/Models/Plant_A.asset
+  artifactKey: Guid(d427b65f0342fe84fa77dabe420757ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/Plant_A.asset using Guid(d427b65f0342fe84fa77dabe420757ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab64de76a98f31accfc1625f2748f2b6') in 0.116015 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Packs/Supercyan Free Forest Sample/Textures/Ground/forestpack_texture_rock_tile_diffuse.png
-  artifactKey: Guid(663e42f73ce2d4c4da1a7bd245ba91a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Supercyan Free Forest Sample/Textures/Ground/forestpack_texture_rock_tile_diffuse.png using Guid(663e42f73ce2d4c4da1a7bd245ba91a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4086703cf9580fdb69940135b2df76d3') in 0.014307 seconds 
+  Time since last request: 0.049075 seconds.
+  path: Assets/TerrainSampleAssets/Models/Grass_C.asset
+  artifactKey: Guid(e4775a09ccd762a42b26cb448a2763f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/Grass_C.asset using Guid(e4775a09ccd762a42b26cb448a2763f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7557ec5c2f9ecba030fbd222d1812b24') in 0.057151 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 515.080877 seconds.
-  path: Assets/KimStuff/New Terrain 3.asset
-  artifactKey: Guid(dab14234c3c714443b0f271f28cc3e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KimStuff/New Terrain 3.asset using Guid(dab14234c3c714443b0f271f28cc3e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PP_Birch_Tree_05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Birch_Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree_7 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: '85c9b5f7d9a116d93cbaf62a1fab4243') in 0.119452 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/TerrainSampleAssets/Models/GrassDry_A.asset
+  artifactKey: Guid(95c06121a3f5d524c8cad4ff4e302950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/GrassDry_A.asset using Guid(95c06121a3f5d524c8cad4ff4e302950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1530b4c88df0542df602470d807ab43a') in 0.041873 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/KimStuff/TerrainData_12ceba7d-2e35-4dfe-9243-8d3c1a9c868f.asset
-  artifactKey: Guid(41cc659312712d843bd49e4880f94d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KimStuff/TerrainData_12ceba7d-2e35-4dfe-9243-8d3c1a9c868f.asset using Guid(41cc659312712d843bd49e4880f94d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PP_Tree_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Birch_Tree_05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Tree_10 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Birch_Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree_7 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: 'b99cbe06b7ddb3d93388c109f91e685f') in 0.057306 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/TerrainSampleAssets/Models/Heather_A.asset
+  artifactKey: Guid(211a44eba6f5ca34ea3d3ac34bbc3469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/Heather_A.asset using Guid(211a44eba6f5ca34ea3d3ac34bbc3469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1ed1c4b6ce25c7d3f46abf2b09d7bf') in 0.048266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TerrainSampleAssets/Models/GrassDry_B.asset
+  artifactKey: Guid(34620cf8cdb76ba4b9af2acb627f7846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/GrassDry_B.asset using Guid(34620cf8cdb76ba4b9af2acb627f7846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcc97f39a9614a83dd193cc8a446b91') in 0.037785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TerrainSampleAssets/Models/Plant_B.asset
+  artifactKey: Guid(97025d35e5b57294f92451cbaf836c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/Plant_B.asset using Guid(97025d35e5b57294f92451cbaf836c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0335ee18e867ab5b9638f5712bf754c0') in 0.034975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.366398 seconds.
+  path: Assets/TerrainSampleAssets/Models/Fern_B.asset
+  artifactKey: Guid(2f9d2984488477d498e8d5c61756f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/Fern_B.asset using Guid(2f9d2984488477d498e8d5c61756f557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f41be5f27aaa43441e204bbc4058183') in 0.037243 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/KimStuff/TerrainData_e9fddd85-95cc-43f2-acb4-73c502d6a52b.asset
-  artifactKey: Guid(7c83125b99b54094487c9a84864bba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KimStuff/TerrainData_e9fddd85-95cc-43f2-acb4-73c502d6a52b.asset using Guid(7c83125b99b54094487c9a84864bba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PP_Birch_Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '6b68454cb2d9356326a5db66c65b6b41') in 0.021704 seconds 
+  path: Assets/TerrainSampleAssets/Models/Fern_C.asset
+  artifactKey: Guid(19f3cdde7d5104c4da897ac17045ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/Fern_C.asset using Guid(19f3cdde7d5104c4da897ac17045ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca54981818d5df4c194c32effa6c1eb') in 0.043217 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/KimStuff/TerrainData_7ee4f4e0-030f-4589-b5dd-fabd8e60681a.asset
-  artifactKey: Guid(b6194e46375e6f64aa20060dbac1d79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KimStuff/TerrainData_7ee4f4e0-030f-4589-b5dd-fabd8e60681a.asset using Guid(b6194e46375e6f64aa20060dbac1d79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PP_Birch_Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree PP_Birch_Tree_05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree Tree_7 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree NormalTree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: 'cae7f2da3048964e91a772db6d210250') in 0.023529 seconds 
+  Time since last request: 0.453477 seconds.
+  path: Assets/TerrainSampleAssets/Models/BushDry_B.asset
+  artifactKey: Guid(8d68c191594d5a24baee81cc22acf55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/BushDry_B.asset using Guid(8d68c191594d5a24baee81cc22acf55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b412acc8f0f6c6ce42d40ee98613b24c') in 0.043925 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/KimStuff/TerrainData_cc23adc0-fd64-4aaa-b0e9-ec7266d9dd32.asset
-  artifactKey: Guid(c4c1300bea50d6d428f5a1dfb2cf54a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KimStuff/TerrainData_cc23adc0-fd64-4aaa-b0e9-ec7266d9dd32.asset using Guid(c4c1300bea50d6d428f5a1dfb2cf54a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PP_Tree_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Birch_Tree_05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Tree_10 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Birch_Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: 'dc24a988022e5af1e72f7c947ee30381') in 0.034303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/KimStuff/NewLayer 1.terrainlayer
-  artifactKey: Guid(5a5a602156d6b8141b34aae19c791c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KimStuff/NewLayer 1.terrainlayer using Guid(5a5a602156d6b8141b34aae19c791c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edef1f51e26a056531a169320577f524') in 0.040430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/KimStuff/TerrainData_06076bef-9e06-40ed-8c9a-834ca948fe0f.asset
-  artifactKey: Guid(1c4ce2381fe9686438a1bef3277fd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KimStuff/TerrainData_06076bef-9e06-40ed-8c9a-834ca948fe0f.asset using Guid(1c4ce2381fe9686438a1bef3277fd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree PP_Tree_10 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Birch_Tree_05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Birch_Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree_7 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: '3582b05774f299ad67f692ad0c390993') in 0.025560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/KimStuff/TerrainData_92d056a8-c520-4f05-b7fe-bd341c9e75ca.asset
-  artifactKey: Guid(987739a4a5efaaa4ab7d98b4ae8a933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KimStuff/TerrainData_92d056a8-c520-4f05-b7fe-bd341c9e75ca.asset using Guid(987739a4a5efaaa4ab7d98b4ae8a933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
-The tree PP_Birch_Tree_05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree PP_Birch_Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree Tree_7 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-The tree NormalTree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
- -> (artifact id: 'b7c0745cffc9d9a5b3e52df8352b0f36') in 0.025238 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/TerrainSampleAssets/Models/Bush_A.asset
+  artifactKey: Guid(0c4301a6ce8e5964c8df62a78aca15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainSampleAssets/Models/Bush_A.asset using Guid(0c4301a6ce8e5964c8df62a78aca15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5769fdf19d939165d2af61601794ad09') in 0.041275 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
